@@ -1,0 +1,97 @@
+/* body{
+    height: 100vh;
+    background: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D&w=1000&q=80) no-repeat center center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(245, 242, 239);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#timer{
+    width: 90%;
+    font-size: 62px;
+    text-align: center;
+    margin-right: 0px auto;
+    padding: 40px;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    margin: 0 10px;
+    border: none;
+}
+button i{
+    font-size: 2rem;
+    padding: 10px;
+    color: rgb(46, 56, 56);
+    width: 30px;
+}
+#play{
+    background-color: rgb(39, 203, 80);
+    color: aliceblue;
+}
+#pause{
+    background-color: orange;
+}
+#reset{
+    background-color: red;
+    color: aliceblue;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f1f1f1;
+    margin: 0;
+    background: url(img/timerProject.jpg) no-repeat center center/ cover;
+}
+
+.container {
+    width: 25%;
+    height: 150px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#timer{
+    width: 100%;
+    font-size: 62px;
+    text-align: center;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
