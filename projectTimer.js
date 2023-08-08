@@ -43,7 +43,7 @@ function stopWatch() {
     leadingHours = hours;
   }
 
-  let displayTimer = (document.getElementById("timer").innerText =
+  let timerDisplay = (document.getElementById("timer").innerText =
     leadingHours + ":" + leadingMinutes + ":" + leadingSeconds);
 }
 
